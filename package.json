@@ -14,16 +14,17 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
-    "@vercel/connect": "^0.2.2",
+    "@vercel/connect": "^0.3.0",
     "ai": "^7.0.0",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
-    "eve": "^0.16.0",
+    "eve": "^0.17.1",
     "zod": "4.4.3"
   },
   "devDependencies": {
     "@types/node": "24.x",
     "drizzle-kit": "^0.31.10",
+    "microsandbox": "^0.5.10",
     "tsx": "^4.22.4",
     "typescript": "7.0.1-rc"
   },

@@ -6,7 +6,7 @@ Use the `insert_property` tool when the user wants to add a new property listing
 
 Before calling `insert_property`:
 
-1. Gather ALL required information from the user: address, postcode, price, bedrooms, bathrooms, property type, and status. Description is optional.
+1. Gather ALL required information from the user: address, postcode, price, bedrooms, bathrooms, property type, and status. If no description is provided by the user, generate one by using the `generate_property_description` skill.
 2. AFTER all information is collected, present a summary of the data to the user in a clear format.
 3. Wait for explicit user confirmation (e.g. "yes", "looks good", "go ahead") before proceeding. If the user wants to change anything update the relevant fields and show the summary again.
 4. Only proceed when the user explicitly confirms they want to insert the new property into the database.
